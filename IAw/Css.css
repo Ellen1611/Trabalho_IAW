@@ -1,0 +1,74 @@
+:root{
+    --cor-fundo: green
+    --cor-hover : rgb(118, 180, 145);
+    --cor-primaria : #000000;         
+}
+
+.dp-menu ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+.dp-menu ul{
+background-color: rgb(227, 170, 227);
+}
+
+.dp-menu ul li{
+    display: inline;
+    position: relative;
+}
+
+.dp-menu ul li a{
+   color: var(--cor-primaria);
+   text-decoration: none;  
+   display: inline-block;
+   padding: 10px;
+}
+
+.dp-menu ul li a:hover{
+background-color: rgb(232, 98, 232);
+   text-decoration-color: black;
+   padding: 10px;
+}
+
+/*sub menu*/
+.dp-menu ul ul{
+    display: none;
+    position: absolute;
+}
+
+.dp-menu ul li:hover ul{
+    display: block;
+    position: absolute;
+}
+
+body{
+    background-color: black;
+    margin: 0;
+}
+
+.Geovanna{ 
+width: 100vw;
+    font-family: monospace;
+    font-size: 15px
+    
+    
+}
+
+p{ color: aliceblue;}
+h1  {color: aliceblue;}
+td {color: aliceblue;}
+label{color: aliceblue;}
+a{color: palevioletred;}
+
+.grupo{
+    width: 100vw;
+   display: flex;
+   justify-content: first baseline;
+ }
+.kitty{ 
+    height: fit-content;
+}
+.star{
+   height: fit-content;
+}
